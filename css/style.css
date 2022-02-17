@@ -1,0 +1,32 @@
+
+
+#brand{
+    color:  blue;
+    font-size: 1.3em;
+    
+}
+
+.navbar{
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.25);
+}
+
+.custom-nav{
+    position: relative;
+   
+    right: 40rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.custom-nav>span{
+    position: relative;
+    font-size: 1.5em;
+    margin: 0 20px;
+    
+}
+.custom-nav>span:hover{
+    border-bottom: 2px solid rgb(59, 33, 207);
+}
