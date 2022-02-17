@@ -13,7 +13,7 @@
 .custom-nav{
     position: relative;
    
-    right: 40rem;
+    right: 10rem;
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -29,4 +29,37 @@
 }
 .custom-nav>span:hover{
     border-bottom: 2px solid rgb(59, 33, 207);
+}
+
+.search{
+    font-size: 16px;
+    position: relative;
+    margin: 10px 10px;
+}
+
+.search>input{
+    position: absolute;
+    right: 8rem;
+    height: 4vh;
+    bottom: -1rem;
+    padding-left: 10px;
+    border-radius: 7px;
+    outline: none;
+    border-style: none;
+    border: 1px solid black;
+}
+
+.search>button{
+    position: absolute;
+    right: 2rem;
+    background-color: cornflowerblue;
+    border-style: none;
+    bottom: -0.9rem;
+    font-size: 1.3rem;
+    padding:  5px 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
 }
