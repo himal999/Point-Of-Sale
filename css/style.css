@@ -106,3 +106,12 @@
     text-decoration: none;
     cursor: pointer;
 }
+#form-clear{
+    left: 1290px;
+    position:relative;
+}
+
+#form-submit{
+    left: 1300px;
+    position:relative;
+}
