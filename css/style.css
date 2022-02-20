@@ -60,4 +60,49 @@
     padding:  2px 2px;
     color: white;
 
+
+    
+}
+#pro-header{
+    height: 220px;
+}
+
+
+#close{
+    left: 350px;
+}
+
+.profile{
+    position: relative;
+ 
+    top: 30px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+}
+
+#profile-img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#pro-name{
+
+    position: relative;
+    top: 1em;
+    left: 35px;
+    display: flex;
+}
+
+
+#pro-name>span>a{
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
