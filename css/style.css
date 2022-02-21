@@ -182,3 +182,18 @@
     display: flex;
     position: relative;
 }
+
+.action{
+    display: flex;
+}
+
+.action-del{
+    background-color: #ff3f34;
+    
+}
+
+.action-up{
+
+    background-color: #0be881;
+    
+}
