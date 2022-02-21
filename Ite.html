@@ -12,25 +12,30 @@
 </head>
 <body>
     <section>
-
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form">
-            open
+      <!--Add/Update/Delete start-->
+        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#form">
+           Add
         </button>
 
          <div class="modal" id="form">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title"> Add New Item</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    <div class="modal-header bg-dark" >
+                        <h5 class="modal-title  text-white text-uppercase"id="form-title" > Add New Item</h5>
+                        <button type="button" class="btn-close text-white bg-danger" data-bs-dismiss="modal"></button>
                     </div>
                     <div class="modal-body">
                         <form>
                             <div class="row mb-4">
                                 <label class="form-label col-3">Item Code</label>
-                                <div class="col-5">
+                                <div class="col-5 ">
                                     <input  class="form-control" type="text">
+                                    <span id="find-code"data-bs-toggle="collapse" data-bs-target="#findCode" aria-expanded="false" aria-controls="collapseExample">find code</span>
+                                   
                                 </div>
+                            </div>
+                            <div class="collapse mb-5 mt-4" id="findCode">
+                            <input type="search" placeholder="search heare..." class="form-control">    
                             </div>
                             <div class="row mb-4">
                                 <label class="form-label col-3">Item Name</label>
@@ -50,18 +55,87 @@
                                     <input  class="form-control" type="number">
                                 </div>
                             </div>
-                            <button type="" class="btn bg-danger me-3 ">Clear</button>
-                            <button type="submit" class="btn bg-primary">Add</button>
+                            <div class="form-btn">
+                                <button type="" class="btn bg-danger me-3 text-white">Clear</button>
+                                <button type="submit" class="btn bg-primary text-white">Add Item</button>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
 
          </div>
-        
+         -->
+            <!-- Add/Delete/Update End-->
 
 
 
+            <!--View Dashboard Start-->
+
+         <div>
+             <div class="info-section">
+                <select class="form-select" id="info">
+                    <option value="1">Tommorow</option>
+                    <option value="2">Yesterday</option>
+                    <option value="3">Weekly</option>
+                    <option value="3">Custom</option>
+                </select>
+
+                <div class="item-info border border-2 m-5 border-dark">
+                    <button class="btn btn-primary mt-4 mb-4 btn-shadow"><h3>New Item<br><strong>03</strong></h3></button>
+                    <button class="btn btn-warning mt-4 mb-4 text-white btn-shadow"><h3>Active Item<br><strong>120</strong></h3></button>
+                    <button class="btn btn-success mt-4 mb-4 btn-shadow"><h3>Deactive Item<br><strong>10</strong></h3></button>
+                    <button class="btn btn-danger mt-4 mb-4 btn-shadow"><h3>Out Of Stcok<br><strong>06</strong></h3></button>
+                </div>
+
+             </div>  
+             <table class="table">
+                <thead class="table-success">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Item Code</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Unit Price($)</th>
+                    <th scope="col">Stock Qty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>01</td>
+                    <td>I-001</td>
+                    <td>Jucie</td>
+                    <td>120.00</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <td>02</td>
+                    <td>I-002</td>
+                    <td>Milk</td>
+                    <td>240.00</td>
+                    <td>1900</td>
+                  </tr>
+                  <tr>
+                    <td>03</td>
+                    <td>I-003</td>
+                    <td>Apple</td>
+                    <td>35.90</td>
+                    <td>200</td>
+                  </tr>
+                </tbody>
+              </table>
+         </div>
+
+
+
+
+
+
+
+
+
+
+            <!--View Dashboard End-->
+           
 
 
 

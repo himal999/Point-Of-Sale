@@ -106,6 +106,8 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/*Item ADD/DELETE/UPDATE*/
 #form-clear{
     left: 1290px;
     position:relative;
@@ -114,4 +116,57 @@
 #form-submit{
     left: 1300px;
     position:relative;
+}
+
+#form-title{
+   
+  position: relative;
+  left: 150px;
+}
+
+
+
+.form-btn{
+
+ height: auto;
+ width: auto;
+ position: relative;
+ justify-content: end;
+ align-items: flex-end;
+ display: flex;
+ margin-bottom:1em;
+}
+
+#find-code{
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    position: absolute;
+    right: 180px;
+}
+
+/*Item view*/
+.info-section{
+    background-color: #CAD3C8;
+    padding: 20px;
+    margin: 20px;
+}
+#info{
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 50px;
+    top:25px
+}
+.item-info{
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+.btn-shadow{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4);
 }
