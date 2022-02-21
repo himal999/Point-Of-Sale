@@ -85,10 +85,27 @@
                     <button class="btn btn-primary mt-4 mb-4 btn-shadow"><h3>New Item<br><strong>03</strong></h3></button>
                     <button class="btn btn-warning mt-4 mb-4 text-white btn-shadow"><h3>Active Item<br><strong>120</strong></h3></button>
                     <button class="btn btn-success mt-4 mb-4 btn-shadow"><h3>Deactive Item<br><strong>10</strong></h3></button>
-                    <button class="btn btn-danger mt-4 mb-4 btn-shadow"><h3>Out Of Stcok<br><strong>06</strong></h3></button>
+                    <button class="btn btn-danger mt-4 mb-4 btn-shadow"><h3>Out Of Stock<br><strong>06</strong></h3></button>
                 </div>
 
              </div>  
+
+             <div class="nav-btn ms-3 me-3 mb-5 mt-5"  >
+                 <div class="search-item">
+                     <input type="search" class="form-control me-2 " placeholder="Search Item code...">
+                     <button type="submit" class="btn btn-outline-success">Find</button>
+                 </div>
+            
+                 <div>
+
+                <button class="btn btn-primary me-2"><i class="fa-solid fa-plus"></i> Add Item</button>
+                <button class="btn btn-success me-2"><i class="fa-solid fa-pen"></i> Update Item</button>
+                <button class="btn btn-danger"><i class="fa-solid fa-trash-can"></i> Delete Item</button>
+             
+
+                  </div>
+             </div>
+             <div class="me-3 ms-3">
              <table class="table">
                 <thead class="table-success">
                   <tr>
@@ -97,6 +114,7 @@
                     <th scope="col">Item Name</th>
                     <th scope="col">Unit Price($)</th>
                     <th scope="col">Stock Qty</th>
+                    <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -106,6 +124,9 @@
                     <td>Jucie</td>
                     <td>120.00</td>
                     <td>20</td>
+                    <td>
+                       delete Update
+                    </td>
                   </tr>
                   <tr>
                     <td>02</td>
@@ -113,6 +134,9 @@
                     <td>Milk</td>
                     <td>240.00</td>
                     <td>1900</td>
+                    <td>
+                        delete Update
+                     </td>
                   </tr>
                   <tr>
                     <td>03</td>
@@ -120,9 +144,13 @@
                     <td>Apple</td>
                     <td>35.90</td>
                     <td>200</td>
+                    <td>
+                        delete Update
+                     </td>
                   </tr>
                 </tbody>
               </table>
+              </div>
          </div>
 
 

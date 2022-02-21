@@ -170,3 +170,15 @@
 .btn-shadow{
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.4);
 }
+
+.nav-btn{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.search-item{
+    display: flex;
+    position: relative;
+}
